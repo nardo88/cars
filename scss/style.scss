@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}
+.container {
+    // width: 1200px;
+    
+    // margin: 0 auto;
+}
+.header {
+
+    // .header__wrapper
+
+    &__wrapper {
+        padding: 0 30px;
+    }
+
+    // .header__add-car
+
+    &__add-car {
+        display: flex;
+        width: 100%;
+        padding: 15px 0;
+        
+    }
+
+    // .header__item
+
+    &__item {
+        margin-right: 50px;
+    }
+
+    // .header__filter
+
+    &__filter {
+    }
+}
+
+.add-car {
+
+    // .add-car__input
+
+    &__input {
+        width: 150px;
+        padding: 3px 5px;
+    }
+
+
+    &__btn{
+        padding: 3px 10px;
+        cursor: pointer;
+    }
+}
+.filter {
+    display: flex;
+    padding: 15px 0;
+
+    &__reset{
+        padding: 3px 10px;
+        cursor: pointer;
+    }
+    // .filter__item
+
+    &__item {
+        margin-right: 50px;
+
+    }
+
+    // .filter__input
+
+    &__input {
+        width: 150px;
+        padding: 3px 5px;
+    }
+}
+.content {
+    background: rgb(49, 49, 51);
+
+    // .content__wrapper
+
+    &__wrapper {
+    }
+}
+.content-items {
+    width: 100%;
+    color: #fff;
+    font-size: 14px;
+    border-collapse: collapse;
+
+    tr{
+        border-bottom: 1px solid #535353; 
+        
+    }
+
+    td{
+        width: 20%;
+        padding: 10px 15px;
+        border-left: none;
+        border-right: none; 
+
+    }
+}
+
+#number{
+    cursor: pointer;
+}
+#mark{
+    cursor: pointer;
+}
+#model{
+    cursor: pointer;
+}
+#year{
+    cursor: pointer;
+}
+#mileage{
+    cursor: pointer;
+}
+

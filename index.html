@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./script.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__add-car add-car">
+                    <div class="header__item">
+                        <input type="text" class="add-car__input mark-add " placeholder="Марка">
+                    </div>
+                    <div class="header__item">
+                        <input type="text" class="add-car__input model-add "  placeholder="Модель">
+                    </div>
+                    <div class="header__item">
+                        <input type="text" class="add-car__input year-add " placeholder="Год выпуска">
+                    </div>
+                    <div class="header__item">
+                        <input type="text" class="add-car__input mileage-add " placeholder="Пробег">
+                    </div>
+                    <div class="header__item">
+                        <button class="add-car__btn">добавить авто</button>
+                    </div>
+                </div>
+                <div class="header__filter filter">
+                    <div class="filter__item">
+                        <input type="text" class="filter__input filter__mark" placeholder="Марка">
+                    </div>
+                    <div class="filter__item">
+                        <input type="text" class="filter__input filter__model" placeholder="Модель">
+                    </div>
+                    <div class="filter__item">
+                        <input type="text" class="filter__input filter__year" placeholder="Год выпуска">
+                    </div>
+                    <div class="filter__item">
+                        <input type="text" class="filter__input filter__mileage" placeholder="Пробег">
+                    </div>
+                    <div class="filter__item">
+                        <button class="filter__reset">Сбросить фильтр</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="content">
+        <div class="container">
+            <div class="content__wrapper">
+                <table class="content-items">
+                    <tr>
+                        <td id="number">№</td>
+                        <td id="mark">Марка</td>
+                        <td id="model">Модель</td>
+                        <td id="year">Год выпуска</td>
+                        <td id="mileage">Пробег</td>
+                    </tr>
+
+                    
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
