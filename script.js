@@ -146,11 +146,12 @@ filter.addEventListener('change', (e) => {
     if (filterMileage.value){
         options.mileage = filterMileage.value
     }
+    console.log(options);
 
     newBase = base.filter(item => {
         let count = 0
         for (let key in options){
-           if (options[key].toLowerCase() === item[key].toLowerCase()){
+           if (String(options[key]).toLowerCase() === String(item[key]).toLowerCase()){
                count ++
            }
         }
